@@ -1,0 +1,40 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar{
+  width:50%;
+  border:none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right:16px;
+}
+.search-button{
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  border:none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  margin-right:16px;
+}
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(lobster-regular-webfont.woff);
+}
+.heading{
+  font-family: myFirstFont;
+  color:  #f9748f;
+  text-align: center;
+  padding-top:20px;
+}
